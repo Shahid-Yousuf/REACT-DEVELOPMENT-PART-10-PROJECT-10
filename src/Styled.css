@@ -1,0 +1,16 @@
+header,footer{
+    background: #7611F6;
+}
+footer {
+    height :250px
+}
+a {
+    color:#fff !important;
+}
+
+button {
+    color:#fff !important;
+}
+.section {
+    height: 600px !important;
+}

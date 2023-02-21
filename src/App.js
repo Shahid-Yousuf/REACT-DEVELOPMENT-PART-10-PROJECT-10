@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+// import area
+import React from "react";
+import Header from "./components/Header";
+import Section from "./components/Section";
+import { Footer } from "./components/Footer"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+//class definition area
+export default class App extends React.Component {
+    // 1. properties
+    // 2.constructor
+    // method
+    //every class have render method 
+    //render method return jsx
+    render(){
+        return <>
+                    <Header />
+                    <Section />
+                    <Footer />
+        
+               </>
+    }
+
 }
 
-export default App;
+
+//export area
+//3.1 export default
+//3.2 named export
